@@ -432,7 +432,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &9080970551947771736
+--- !u!224 &980178537 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 7170121442192776097, guid: 0e2a5f92a8f2c314a80d989d369dd2c2, type: 3}
+  m_PrefabInstance: {fileID: 1296509420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1296509420
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -527,8 +532,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7634136509204730517, guid: 0e2a5f92a8f2c314a80d989d369dd2c2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1296509426}
   m_SourcePrefab: {fileID: 100100000, guid: 0e2a5f92a8f2c314a80d989d369dd2c2, type: 3}
+--- !u!1 &1296509421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7634136509204730517, guid: 0e2a5f92a8f2c314a80d989d369dd2c2, type: 3}
+  m_PrefabInstance: {fileID: 1296509420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1296509422 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1970783552900932181, guid: 0e2a5f92a8f2c314a80d989d369dd2c2, type: 3}
+  m_PrefabInstance: {fileID: 1296509420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1296509423 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 8663508354723334084, guid: 0e2a5f92a8f2c314a80d989d369dd2c2, type: 3}
+  m_PrefabInstance: {fileID: 1296509420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1296509424 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 843005129351374192, guid: 0e2a5f92a8f2c314a80d989d369dd2c2, type: 3}
+  m_PrefabInstance: {fileID: 1296509420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1296509425 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 4937056852168330339, guid: 0e2a5f92a8f2c314a80d989d369dd2c2, type: 3}
+  m_PrefabInstance: {fileID: 1296509420}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1296509426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296509421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 294b328895cb67b478e56ffdf69b9ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PizzaSpawner
+  pizzaUIPrefab: {fileID: 2015075184424952805, guid: 0720e4f58c348eb448b543871dc12090, type: 3}
+  spawnPoints:
+  - {fileID: 1296509425}
+  - {fileID: 1296509424}
+  - {fileID: 1296509423}
+  - {fileID: 1296509422}
+  canvasTransform: {fileID: 980178537}
+  spawnInterval: 3
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -536,4 +589,4 @@ SceneRoots:
   - {fileID: 330585546}
   - {fileID: 410087041}
   - {fileID: 832575519}
-  - {fileID: 9080970551947771736}
+  - {fileID: 1296509420}
