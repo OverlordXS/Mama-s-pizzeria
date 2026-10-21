@@ -185,8 +185,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.9528302, g: 0.7810768, b: 0.4719206, a: 1}
+  m_Sprite: {fileID: -1445885129, guid: 36fcd69297d07944f9c0a147a7d83d33, type: 3}
+  m_Color: {r: 0.9528302, g: 0.75327206, b: 0.38203096, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7044bfd1ea2c57c4facd24499a86569a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PizzaZone
-  pizza: {fileID: 1618972989, guid: 59efce4ed4523994096770610de91fb6, type: 3}
+  pizza: {fileID: 163333797, guid: 36fcd69297d07944f9c0a147a7d83d33, type: 3}
   pizzaRenderer: {fileID: 233603440}
   SpriteRenderer: {fileID: 0}
   pizzaPrefab: {fileID: 233603439}
